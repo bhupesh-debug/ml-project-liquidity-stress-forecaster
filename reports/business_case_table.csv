@@ -1,0 +1,4 @@
+Scenario,Buffer_Carry_Optimization,Avoided_Emergency_Borrowing,Treasury_Labor_Savings,Total_Annual_Benefit,Implementation_Cost,Annual_Maintenance_Cost,Year1_Net_Benefit,Payback_Period_Months,Three_Year_NPV,ROI_3Year_Pct
+Conservative,"$1,200,000","$400,000","$81,250","$1,681,250","$280,000","$70,000","$1,331,250",2.1,"$3,726,940",1331.0%
+Base,"$2,400,000","$850,000","$112,500","$3,362,500","$260,000","$65,000","$3,037,500",0.9,"$7,940,394",3054.0%
+Upside,"$3,800,000","$1,600,000","$150,000","$5,550,000","$240,000","$60,000","$5,250,000",0.5,"$13,412,817",5589.0%

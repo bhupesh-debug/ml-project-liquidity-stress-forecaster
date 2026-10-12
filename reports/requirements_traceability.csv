@@ -1,0 +1,14 @@
+Requirement_ID,Category,Requirement_Description,Implementation_File,Validation_Artifact,Status
+REQ-LIQ-001,Data Pipeline,3-year daily net outflow panel with weekday month-end and market stress processes,src/data_pipeline.py,data/synthetic/daily_outflow.csv,VERIFIED
+REQ-LIQ-002,Feature Engineering,Calendar and autoregressive lag transformations with leakage protection,src/feature_engineering.py,tests/test_pipeline.py,VERIFIED
+REQ-LIQ-003,Forecasting,Chronological benchmark comparison (Rolling 28d lag7 OLS QuantReg and GBM),run.py,reports/results.json,VERIFIED
+REQ-LIQ-004,Conformal Calibration,Validation slice conformal offset to guarantee 95% tail coverage,run.py,reports/results.json,VERIFIED
+REQ-LIQ-005,Econometrics,OLS regression and median/p95 quantile regression with HC3 robust inference,src/regression_analysis.py,reports/regression_coefficients.csv,VERIFIED
+REQ-LIQ-006,Stress Testing,Multi-scenario stress simulations across 30-day rolling windows (mild severe persistent),src/simulation.py,reports/simulation_report.md,VERIFIED
+REQ-LIQ-007,Buffer Sizing,Buffer multiplier sensitivities (+/-10% +/-20% +30%) and breach rate quantification,src/simulation.py,reports/simulation_report.md,VERIFIED
+REQ-LIQ-008,Reverse Stress,Reverse stress testing identifying buffer shortfall under severe market contagion,src/simulation.py,reports/simulation_report.md,VERIFIED
+REQ-LIQ-009,Monte Carlo,5000-run Monte Carlo simulation quantifying cumulative 30-day outflow distribution,src/simulation.py,reports/liquidity_stress_simulation.png,VERIFIED
+REQ-LIQ-010,Business Case,Corporate Treasury financial ROI model with buffer carry savings and 3-year NPV,src/business_case.py,reports/business_case_table.csv,VERIFIED
+REQ-LIQ-011,Governance,MRM SR 11-7 model card and ALCO liquidity trigger controls,docs/model_card.md,docs/governance_controls.md,VERIFIED
+REQ-LIQ-012,Testing,Automated pytest regression test suite for pipelines and metrics,tests/test_pipeline.py,reports/results.json,VERIFIED
+REQ-LIQ-013,Executive Deck,10-slide PowerPoint executive presentation generated via python-pptx,slides/generate_deck.py,slides/project_deck.pptx,VERIFIED
