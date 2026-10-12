@@ -1,5 +1,12 @@
 # Liquidity Stress Forecaster
 
+[![Live Interactive Dashboard](https://img.shields.io/badge/Live%20Dashboard-GitHub%20Pages-success)](https://bhupesh-debug.github.io/ml-project-liquidity-stress-forecaster/)
+[![Master Portfolio Hub](https://img.shields.io/badge/Master%20Hub-Portfolio-blue)](https://bhupesh-debug.github.io/ml-portfolio-finance-analytics-hub/)
+
+**🌐 Real-Time Interactive Analytics Lab:** [https://bhupesh-debug.github.io/ml-project-liquidity-stress-forecaster/](https://bhupesh-debug.github.io/ml-project-liquidity-stress-forecaster/)
+
+---
+
 *Forecast daily net cash outflow with an uncertainty band, then stress the forecast to see how long a liquidity buffer lasts.*
 
 [![Tests](https://img.shields.io/badge/tests-passing-brightgreen)](tests/)
